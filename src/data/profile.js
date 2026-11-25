@@ -17,7 +17,7 @@ export const PROFILE = {
   education: 'BS Information Technology',
   email: 'markcastro958@gmail.com',
   linkedin: 'https://www.linkedin.com/in/mark-gil-castro-a23866196', // e.g. 'https://www.linkedin.com/in/your-handle'
-  github: 'https://github.com/markgilcastro',   // e.g. 'https://github.com/your-handle'
+  github: 'https://github.com/markcastro958-arch',   // e.g. 'https://github.com/your-handle'
   resumeUrl: '/resume.pdf', // e.g. '/resume.pdf'
   resumeName: 'Mark-Gil-Castro-Resume.pdf'
 }
