@@ -44,8 +44,8 @@ export default function ProjectDetailModal({ project: p, onClose }) {
 
         <div className="modal-body">
           <div className="modal-preview">
-            <div className="thumb"><Thumb kind={p.thumb} /></div>
-            <p className="note">Interface preview (illustrative). Replace with real screenshots in public/images/.</p>
+             <div className="thumb"><Thumb kind={p.thumb} src={p.image} alt={`${p.name} interface preview`} /></div>
+            {!p.image && <p className="note">Interface preview (illustrative). Replace with real screenshots in public/images/.</p>}
           </div>
 
           <section><h3>Overview</h3><p>{p.overview}</p></section>

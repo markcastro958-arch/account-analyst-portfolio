@@ -6,19 +6,19 @@ import {
 
 export const PROFILE = {
   name: 'Mark Gil Castro',
-  title: 'Account Analyst',
-  fullTitle: 'Professional Account Analyst',
+  title: 'Data Analyst',
+  fullTitle: 'Professional Data Analyst',
   tagline: 'Data-Driven Decisions. Better Operations.',
   quote: 'Numbers tell a story, and I help turn them into better decisions.',
   about:
     'I am a detail-oriented and analytical professional with experience in account analysis, data management, inventory monitoring, logistics support, and operational reporting. I specialize in turning complex data into clear insights, helping teams improve processes, track performance, and achieve goals efficiently.',
   location: 'Banga, South Cotabato, Philippines',
-  relocation: 'Open to Relocation (BGC / Manila)',
-  education: 'BS Information Technology (in progress)',
+  relocation: 'Open to Relocation or Remote Work',
+  education: 'BS Information Technology',
   email: 'markcastro958@gmail.com',
-  linkedin: '', // e.g. 'https://www.linkedin.com/in/your-handle'
-  github: '',   // e.g. 'https://github.com/your-handle'
-  resumeUrl: '/resume.pdf',
+  linkedin: 'https://www.linkedin.com/in/mark-gil-castro-a23866196', // e.g. 'https://www.linkedin.com/in/your-handle'
+  github: 'https://github.com/markgilcastro',   // e.g. 'https://github.com/your-handle'
+  resumeUrl: '/resume.pdf', // e.g. '/resume.pdf'
   resumeName: 'Mark-Gil-Castro-Resume.pdf'
 }
 

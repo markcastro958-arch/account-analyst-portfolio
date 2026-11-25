@@ -1,4 +1,14 @@
-export default function Thumb({ kind }) {
+import { useState } from 'react'
+
+export default function Thumb({ kind, src, alt = '' }) {
+  const [failed, setFailed] = useState(false)
+  if (src && !failed) {
+    return <img className="thumb-img" src={src} alt={alt} loading="lazy" onError={() => setFailed(true)} />
+  }
+  return <ThumbArt kind={kind} />
+}
+
+function ThumbArt({ kind }) {
   return (
     <svg className="thumb-svg" viewBox="0 0 200 110" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
       <rect width="200" height="110" fill="var(--thumb-bg)" />

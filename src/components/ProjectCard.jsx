@@ -5,7 +5,7 @@ export default function ProjectCard({ project, onOpen }) {
   return (
     <article className="project">
       <div className="thumb">
-        <Thumb kind={project.thumb} />
+        <Thumb kind={project.thumb} src={project.image} alt={`${project.name} interface preview`} />
         <span className={`status ${project.status}`}>{STATUS[project.status]}</span>
       </div>
       <h3>{project.name}</h3>
