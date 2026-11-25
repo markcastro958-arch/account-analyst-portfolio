@@ -32,7 +32,7 @@ export default function HeroBanner({ onNavigate, resumeOk, notify }) {
     <section id="home" className="hero card-reset" aria-labelledby="hero-title">
       <div className="hero-copy">
         <span className="eyebrow">PORTFOLIO</span>
-        <h2 id="hero-title">Professional<br />Account Analyst</h2>
+        <h2 id="hero-title">Professional<br />Data Analyst</h2>
         <p>I turn data into insights, support operational efficiency, and help businesses make informed decisions.</p>
 
         <ul className="specialties">
